@@ -5,5 +5,9 @@
 	"build": {
 		"command": "pnpm run build"
 	},
-	"compatibility_date": "2021-11-12"
+	"compatibility_date": "2021-11-12",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	}
 }
