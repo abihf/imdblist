@@ -1,0 +1,12 @@
+{
+	"name": "imdb-list",
+	"account_id": "db73c0fbf6cf14e2a19cb6ef57f9f38a",
+	"main": "./.cloudflare/worker.js",
+	"site": {
+		"bucket": "./.cloudflare/public"
+	},
+	"build": {
+		"command": "pnpm run build"
+	},
+	"compatibility_date": "2021-11-12"
+}
